@@ -1,0 +1,410 @@
+.body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+.header {
+    float: center;
+    background-color: rgb(156, 51, 51);
+    width: 100%;
+    height: 200px;
+    background: black;
+    
+  }
+  
+.footer {
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    text-align: right;
+  }
+  
+.footer_text {
+    color: white;
+    text-align: right;
+    position: relative;
+    top: 20px;
+  }
+.menu-bar{
+    float: right;
+    width: 100%;
+    margin-top: 5px;
+    height: 150px;
+    background-color: rgb(109, 109, 109);
+  }
+  
+  
+.baslık {
+    font-size: 70pt;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    text-shadow: 3px 3px 0.4px rgb(233, 5, 202);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: bold;
+  
+  }
+  
+  /*icon*/
+  
+  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+  }
+  
+.facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  }
+  
+.twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  }
+  
+.google {
+    background: #dd4b39;
+    color: white;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  }
+  
+.linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  
+  }
+  
+.youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  
+  }
+ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: right;
+  }
+  
+li a {
+  display: block;
+  color: rgb(162, 99, 170);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+li a:hover {
+  background-color: rgb(255, 255, 255);
+  font-size: 21px;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+  }
+
+.container .heading{
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .2rem;
+    text-align: center;
+    text-shadow: 0 .3rem .5rem rgba(194, 133, 204, 0.5);
+    background-color: rgb(113, 70, 119);
+  }
+
+.video-container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color:rgb(68, 66, 66) ;
+  }
+.video-container .video{
+    height: 15rem;
+    width: 25em;
+    margin: 2rem;
+    box-shadow: 0 .15rem 1rem rgba(96, 39, 107, 0.5);
+    overflow: hidden;
+    border-radius: 1rem;
+    
+  }
+  .video-container .video video{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      outline: none;
+      border: none;
+      cursor:pointer;
+      
+
+  }
+
+  .video-container .video video:hover{
+
+    transition: .2s linear;
+    transform: scale(1.3);
+  }
+
+  .video-container .video .active{
+      position: fixed;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      height: auto;
+      width: 80%;
+      box-shadow: 0 0 0 100vh rgb(0, 0,0,.7);
+      z-index: 1;
+
+  }  
+  .video-container .video .active:hover{
+    transition: none;
+    transform: translate(-50%, -50%) scale(1);
+
+
+  }
+
+
+  .text-effect{
+    overflow: hidden;
+    filter: contrast(150%) brightness(1000%);
+    position: relative;
+  
+  }
+  .text{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background:black;
+    position: relative;
+    letter-spacing: 5px;
+    font-style: bold;
+  
+  }
+  .text::before,
+  .text::after{
+    content: attr(data-text);
+    color: #fff;
+    position: absolute;
+    top: 0; left: 0;
+    pointer-events: none;
+    filter: blur(0.02em);
+  
+  }
+  .text::after{
+    mix-blend-mode: difference;
+  
+  }
+  .gradient,
+  .spotlight{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  
+  }
+  .gradient{
+    background:linear-gradient(45deg, rgb(128, 0, 85), rgb(241, 241, 241));
+    mix-blend-mode: multiply;
+  
+  }
+  .spotlight{
+    top:-100%;
+    left: -100%;
+    background: radial-gradient(circle, white, transparent 25%) 0 0/ 25% 25%,
+    radial-gradient(circle, white, black 25%) 50% 50% / 12.5% 12.5%;
+    mix-blend-mode: color-dodge;
+    animation: animate 5s linear infinite;
+  }
+  @keyframes animate {
+    100%{
+      transform: translate(50%, 50% );
+    }
+  }
+
+  .skull{
+    width: 30px;
+    height: 30px;
+  }
+  .skull img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 10px solid #222;
+    margin-top: -30px;
+    
+    position: relative;
+      /* Start the shake animation and make the animation last for 0.5 seconds */
+      animation: shake 0.5s;
+
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+  }
+  
+  .skull:hover img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 10px solid #222;
+    margin-top: -70px;
+    position: relative;
+  }
+  .t{
+      display: none;
+      height:30px;
+      width:290px;
+      font-size: 11px;
+      color: yellow;
+      position: relative;
+      float: left;
+      right: 150px;
+  }
+  .skull a:hover + div {
+    display: block;
+  }
+
+  .menu-bar2{
+    float: right;
+    width: 100%;
+    margin-top: 5px;
+    height: 150px;
+    position: relative;
+    bottom: -35px;
+  }
+  @keyframes shake {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+  
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+  
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+  
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+  
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+  
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+  
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+  
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+  
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+  
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+  
+    100% {
+      transform: translate(1px, -2px) rotate(-1deg);
+    }
+  }
+
+  #button {
+    display: inline-block;
+    background-color: #175d85;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  

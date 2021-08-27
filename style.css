@@ -1,0 +1,772 @@
+@media only screen and (max-width: 900px) {
+  h1 { font-size: 40px !important; }
+  }
+      @media only screen and (max-width: 900px) {
+        .logo_image { height: 40px !important; top:-45px ;}
+        }
+        @media only screen and (max-width: 900px) {
+          .logo_image2 { height: 100px !important;bottom: 110px !important; }
+          }
+          @media only screen and (max-width: 900px) {
+            .header { height: 60px !important; top:2px ;}
+            }
+            @media only screen and (max-width: 900px) {
+              .con { width: 80px !important; height: 100px !important; margin: 200px 20px !important; }
+              }
+              @media only screen and (max-width: 900px) {
+                .slider { width: 90% !important; height: 90%; }
+                }
+                @media only screen and (max-width: 900px) {
+                  .slider img { width: 500px !important; height: 500px !important; }
+                  }
+                  @media only screen and (max-width: 900px) {
+                    .contfet  { width: 90vw !important; }
+                    }
+                    @media only screen and (max-width: 900px) {
+                      .skull img  { top: 30px !important; }
+                      }
+                      @media only screen and (max-width: 900px) {
+                        .ybut  { width: 130px !important;height: 50px !important; font-size:17px  !important; }
+                        }
+                 
+
+    
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.body {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+  padding: 19px;
+  background-color: #888;
+  background:linear-gradient(0deg, rgb(34, 34, 34) 100%, rgb(73, 70, 73) 0%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+.header {
+  float: left;
+  background-color: rgb(156, 51, 51);
+  width: 100%;
+  height: 200px;
+  margin: 2px;
+  position: relative;
+  
+
+}
+
+
+.fetuares {
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+  height: 50%;
+  background-color: black;
+ 
+  
+}
+
+.team {
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+  height: 100%;
+  background-color: black;
+  background-image: url("image/video_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+
+
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  height: 5%;
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: right;
+}
+
+.footer_text {
+  color: white;
+  text-align: left;
+  position: relative;
+  margin: 5px;
+  top: 35px;
+  
+}
+.menu-bar{
+  float: right;
+  width: 100%;
+  margin-top: 5px;
+  height: 230px;
+  position: relative;
+  bottom: 40px;
+  background-color: rgb(0, 0, 0);
+}
+.menu-bar2{
+  float: right;
+  width: 100%;
+  margin-top: 5px;
+  height: 150px;
+  position: relative;
+  bottom: -35px;
+}
+
+
+
+/*icon*/
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+
+}
+
+/* logo */
+.logo_image {
+  width: 13%;
+  height: 85%;
+  position: relative;
+  bottom: 170px;
+  border-radius: 8px;
+  float: right;
+  margin: 2px;
+
+
+}
+
+.logo_image2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0.3;
+  bottom: 370px;
+
+}
+
+.logo_image3 {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  bottom: 400px;
+  left: 1224px;
+
+}
+
+
+
+
+
+.title {
+  color: white;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+
+
+/*
+menu bar
+
+*/
+ul {
+  list-style-type: none;
+  margin: 2px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(162, 99, 170);
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+li a:hover {
+  background-color: rgb(255, 255, 255);
+  font-size: 19px;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  color: black;
+}
+
+.text-effect{
+  overflow: hidden;
+  filter: contrast(150%) brightness(1000%);
+  position: relative;
+
+}
+.text{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  background:black;
+  position: relative;
+  letter-spacing: 5px;
+  font-style: bold;
+  overflow:hidden ;
+  width: 1350px;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+
+}
+.text::before,
+.text::after{
+  content: attr(data-text);
+  color: #fff;
+  position: absolute;
+  top: 0; left: 0;
+  pointer-events: none;
+  filter: blur(0.02em);
+
+}
+.text::after{
+  mix-blend-mode: difference;
+
+}
+.gradient,
+.spotlight{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+
+}
+.gradient{
+  background:linear-gradient(45deg, rgb(128, 0, 0), rgb(241, 241, 241));
+  mix-blend-mode: multiply;
+
+}
+.spotlight{
+  top:-100%;
+  left: -100%;
+  background: radial-gradient(circle, white, transparent 25%) 0 0/ 25% 25%,
+  radial-gradient(circle, white, black 25%) 50% 50% / 12.5% 12.5%;
+  mix-blend-mode: color-dodge;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  100%{
+    transform: translate(50%, 50% );
+  }
+}
+
+.kontey{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.kart{
+  height: 600px;
+  width: 390px;
+  margin: 20px;
+  box-shadow: 0 3px 10px #000;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #222;
+  
+}
+.kart .bg-image img{
+width: 100%;
+height: 230px;
+object-fit: cover;
+clip-path: polygon(0 0, 100%, 0%, 100% 70%, 45% 100%, 0 70%);
+}
+
+.kart .pic img{
+height: 120px;
+width: 120px;
+border-radius: 50%;
+border: 10px solid #222;
+margin-top: -90px;
+position: relative;
+
+}
+.kart .pic img:hover{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 10px solid #222;
+  margin-top: -90px;
+  position: relative;
+  
+  }
+.kart .bilgi h3{
+  color: #f0f0f0;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.kart .bilgi span{
+  font-size: 15px;
+  color: #e74c3c;
+
+}
+.kart .bilgi p{
+  font-size: 13px;
+  padding: 10px 20px;
+  color: #999;
+
+}
+.kart .bilgi .avatar a{
+  font-size: 30px;
+  text-decoration: none;
+  color: #e74c3c;
+  margin-top: 80px;
+  padding: 0 5px;
+
+}
+
+.kart .bilgi .avatar a:hover{
+  color: #eeff00;
+  font-size: 35px;
+}
+.team_h{
+  font-size: 70px;
+  color: rgb(187, 187, 187);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* slider */
+.con{
+  height: 200px;
+  width: 200px;
+  margin: 350px auto;
+  perspective: 1000px;
+  position: relative;
+  
+ 
+  
+}
+.con .sliders{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+  animation: slideran 16s linear infinite;
+  
+  
+  
+
+}
+@keyframes slideran {
+  from{
+    transform: rotateY(0deg);
+
+  }
+  to{
+    transform: rotateY(360deg);
+    
+  }
+}
+.con:hover .sliders{
+ animation-play-state: paused;
+}
+
+.con .sliders > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  image-rendering: auto;
+  position: absolute;
+  box-shadow: 0px 0px 40px rgb(107, 99, 105);
+
+
+}
+
+.sliders > img:nth-child(1){
+  transform: rotateY(45deg) translateZ(270px);
+}
+.sliders > img:nth-child(2){
+  transform: rotateY(90deg) translateZ(270px);
+}
+
+.sliders > img:nth-child(3){
+  transform: rotateY(135deg) translateZ(270px);
+}
+.sliders > img:nth-child(4){
+  transform: rotateY(180deg) translateZ(270px);
+}
+.sliders > img:nth-child(5){
+  transform: rotateY(225deg) translateZ(270px);
+}
+.sliders > img:nth-child(6){
+  transform: rotateY(270deg) translateZ(270px);
+}
+
+.sliders > img:nth-child(7){
+  transform: rotateY(315deg) translateZ(270px);
+}
+
+.sliders > img:nth-child(8){
+  transform: rotateY(360deg) translateZ(270px);
+}
+.con .sliders > img:hover{
+ box-shadow: 0px 0px 10px white ;
+ transition: all .2s ease-in;
+ cursor: pointer;
+ bottom: 20px;
+ -webkit-box-reflect: below 25px linear-gradient(0deg, white 0% transparent 20%);
+}
+
+/* features */
+
+@media screen {
+.contfet{
+  min-height: 100vh;
+  width: 96vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #646262;
+  flex-wrap: wrap;
+
+}
+.counter{
+  height: 200px;
+  width: 200px;
+  background: #3498db;
+  color: rgb(255, 255, 255);
+  margin: 30px;
+  padding: 7px 20px 0;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  
+
+}
+
+.counter:hover{
+   /* Start the shake animation and make the animation last for 0.5 seconds */
+   animation: shake 0.5s;
+
+   /* When the animation is finished, start again */
+   animation-iteration-count: infinite;
+}
+.counter::before,
+.counter::after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: -1;
+  background: linear-gradient(#555, #333 39%, transparent 39%);
+  border-radius: 50%;
+
+ 
+}
+.counter::after{
+  transform: rotateX(180deg);
+}
+.counter i{
+  font-size: 40px;
+  margin: 10px auto;
+  color: rgb(255, 255, 255);
+
+}
+.counter .number{
+  font-size: 35px;
+  display: block;
+  margin: 14px 0;
+
+}
+.counter h3{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+.counter:nth-child(2){
+  background: #e74c3c;
+
+}
+.counter:nth-child(3){
+  background: #9b59b6;
+  
+}
+.counter:nth-child(4){
+  background: #f39c12;
+  
+}
+
+}
+.ybut{
+  height: 100px;
+  width: 360px;
+  border-radius: 25px solid rgb(2, 2, 2);
+  border-radius: 50px;
+  background: none;
+  background-color: rgb(32, 32, 32);
+  outline: none;
+  color: white;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: 40px;
+  cursor: pointer;
+  transition: .3s;
+  position: relative;
+  margin: 0px 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.ybut:hover{
+  color: rgba(167, 8, 8, 0.685);
+  box-shadow: 0px 0px 25px rgb(151, 151, 151),
+              0px 0px 15px rgb(155, 153, 153) inset;
+  text-shadow: 0px 0px 10px rgb(71, 69, 69);
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #004);
+  font-size: 45px;
+
+}
+.skull{
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin: 13px;
+  padding: 5px;
+}
+.skull img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 10px solid #222;
+  margin-top: -20px;
+  float: right;
+  position: relative;
+   /* Start the shake animation and make the animation last for 0.5 seconds */
+   animation: shake 0.5s;
+
+   /* When the animation is finished, start again */
+   animation-iteration-count: infinite;
+}
+
+.skull:hover img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 10px solid #222;
+  margin-top: -40px;
+  position: relative;
+ 
+}
+.t{
+    display: none;
+    height:30px;
+    width:290px;
+    font-size: 11px;
+    color: yellow;
+    position: relative;
+    float: right;
+    right: 1px;
+    margin: 3px;
+}
+.skull a:hover + div {
+  display: block;
+}
+hr{
+  border-top: 10px solid rgb(146, 7, 84);
+}
+.h-but{
+  height: 80px;
+  width: 80px;
+  border-radius: 25px solid rgb(109, 4, 4);
+  border-radius: 50px;
+  background: none;
+  background-color: rgb(116, 4, 4);
+  outline: none;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: 11px;
+  cursor: pointer;
+  transition: .3s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.h-but:hover{
+ 
+  font-size: 13px;
+  height: 90px;
+  width: 90px;
+}
+
+
+#button {
+  display: inline-block;
+  background-color: #175d85;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
